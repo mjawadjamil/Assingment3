@@ -1,0 +1,211 @@
+.intro{
+    background-color: aqua;
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#navbar::before {
+  content: "";
+  background-color: orchid;
+  opacity: 1.0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.logo {
+  margin: 10px;
+}
+
+.logo img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+}
+
+.navlist {
+  display: flex;
+  margin: 0px 0px 0px 15px;
+
+}
+
+.navlist li {
+  list-style: none;
+}
+
+.navlist li a {
+  color: white;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.navlist li a:hover {
+  color: blue;
+  background-color: green;
+}
+.calculator{
+    background-color: blueviolet;
+}
+.cal:hover{
+    background-color: yellow;
+    transform: rotate(180deg);
+}
+.adrs a{
+    text-align: left;
+}
+.threetype img {
+    padding: 20px;
+    margin: 20px;
+    width: 70%;
+    height: 70%;
+  
+  }
+  
+  .img-colm1:hover {
+    filter: grayscale(100%);
+    
+  
+  }
+  
+  .img-colm2:hover {
+    filter: blur(2px);
+  
+  }
+  
+  .img-colm3:hover {
+    filter: opacity(30%);
+  
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  h3 {
+    text-align: center;
+    
+  
+  }
+  .rotate {
+    padding: 20px;
+    margin: 20px;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    transition: width 2s, height 2s, transform 2s;
+  
+  
+  
+  }
+  
+  .rotate:hover {
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+  
+  }
+  .rotate2 {
+    width: 50%;
+    background: yellow;
+    border: 1px solid black;
+    transition: transform 1s;
+    padding: 20px;
+    margin: 20px;
+    transform-origin: right;
+  
+  }
+  
+  .rotate2:hover {
+  
+    transform: rotate(180deg);
+  
+  }
+  .classresponsive {
+    margin: 10px;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .img-col {
+    border: 1px solid #ccc;
+    margin: 10px;
+  
+  }
+  
+  div.img-col img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .responsive {
+        width: 100%;
+    }
+  }
+  .tb {
+    width: 100%;
+}
+
+.tb th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+    background-color: blue;
+    color: white;
+}
+
+.tb td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tb tr:hover {
+    background-color: skyblue;
+}
+.btn {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.button {
+  height: 60px;
+  width: 100px;
+  color: white;
+  background-color: blue;
+}
+.text-colm {
+  width: 50%;
+  padding: 20px;
+}
+
+.text-colm h2 {
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(11, 161, 48), 0 0 5px darkblue;
+}
